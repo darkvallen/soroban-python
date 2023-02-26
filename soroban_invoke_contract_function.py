@@ -35,7 +35,7 @@ tx = (
     .append_invoke_contract_function_op(
         contract_id=contract_id,
         method="hello",
-        parameters=[Symbol("YouTube")],
+        parameters=[Symbol("World")],
         source=kp.public_key,
     )
     .build()
