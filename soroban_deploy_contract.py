@@ -8,7 +8,7 @@ from stellar_sdk.soroban import SorobanServer
 from stellar_sdk.soroban.soroban_rpc import TransactionStatus
 
 # TODO: You need to replace the following parameters according to the actual situation
-secret = "S---" #Put your Account Secret Key here
+secret = "S..." #Put your Account Secret Key here
 rpc_server_url = "https://horizon-futurenet.stellar.cash:443/soroban/rpc"
 network_passphrase = Network.FUTURENET_NETWORK_PASSPHRASE
 contract_file_path = "./soroban_hello_world_contract.wasm" 
