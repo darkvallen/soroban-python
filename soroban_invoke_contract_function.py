@@ -34,7 +34,7 @@ tx = (
     .set_timeout(300)
     .append_invoke_contract_function_op(
         contract_id=contract_id,
-        method="hello",
+        function_name="hello",
         parameters=[Symbol("World")],
         source=kp.public_key,
     )
