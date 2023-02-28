@@ -16,7 +16,7 @@ from stellar_sdk import Network, Keypair, TransactionBuilder
 from stellar_sdk import xdr as stellar_xdr
 from stellar_sdk.soroban import SorobanServer
 from stellar_sdk.soroban.soroban_rpc import TransactionStatus
-from stellar_sdk.soroban_types import Symbol
+from stellar_sdk.soroban.types import Symbol
 
 # TODO: You need to replace the following parameters according to the actual situation
 secret = "SDMVWEWUZVYDACEM3G2X2XT4W4BP3OSZHX3KXVOQTJMDIUQQLKAIWK7Z"
